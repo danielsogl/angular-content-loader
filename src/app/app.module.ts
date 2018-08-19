@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { ContentLoaderModule } from '../../projects/content-loader/src/lib/content-loader.module';
 import { AppComponent } from './app.component';
+import { ContentLoaderModule } from 'content-loader';
 
 @NgModule({
   declarations: [

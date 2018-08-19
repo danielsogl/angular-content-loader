@@ -35,11 +35,7 @@ export class ContentLoaderComponent {
   public idGradient = uid();
 }
 
-/**
- * Generates random UID
- * @returns {string} random UID
- */
-function uid(): string {
+function uid() {
   return Math.random()
     .toString(36)
     .substring(2);
